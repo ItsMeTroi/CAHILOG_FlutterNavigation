@@ -32,7 +32,7 @@ class _LayoutWidgetState3 extends State<LayoutWidget3>{
                             color: Colors.grey[350],
                           ),
                           const SizedBox(
-                            width: 50,
+                            width: 20,
                           ),
                           Container(
                             height: 100,
@@ -40,7 +40,7 @@ class _LayoutWidgetState3 extends State<LayoutWidget3>{
                             color: Colors.grey,
                           ),
                           const SizedBox(
-                            width: 50,
+                            width: 20,
                           ),
                           Container(
                             height: 100,
@@ -56,7 +56,7 @@ class _LayoutWidgetState3 extends State<LayoutWidget3>{
                           children: [
                             Container(
                               height: 150,
-                              width: 500,
+                              width: 300,
                               color: Colors.grey[350],
                             ),
                             const SizedBox(
@@ -64,7 +64,7 @@ class _LayoutWidgetState3 extends State<LayoutWidget3>{
                             ),
                             Container(
                               height: 150,
-                              width: 500,
+                              width: 300,
                               color: Colors.grey,
                             ),
                           ]

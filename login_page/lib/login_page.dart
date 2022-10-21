@@ -130,7 +130,7 @@ return Container(
           // sign-in button
   
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 150.0),
+              padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: MaterialButton(
                 onPressed: () {
                   Navigator.push(
@@ -138,9 +138,12 @@ return Container(
                     MaterialPageRoute(builder: (context) => LayoutWidget1()),
                   );
                 },
+                    minWidth: double.infinity,
+                    height: 60,
                     child: Container(
                   padding: EdgeInsets.all(25),
                   decoration: BoxDecoration(
+                    
                     color: Colors.green,
                     borderRadius: BorderRadius.circular(12),
                     ),
@@ -148,6 +151,7 @@ return Container(
                   child: Center(
                     child: Text('Sign In',
                       style: TextStyle(
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         ),
                       ),

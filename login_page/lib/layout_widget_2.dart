@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'layout_widget_3.dart';
 
-
 class LayoutWidget2 extends StatefulWidget {
   const LayoutWidget2({Key? key}) : super(key:key);
 
@@ -55,26 +54,35 @@ class _LayoutWidgetState2 extends State<LayoutWidget2>{
                       Row(
                         mainAxisAlignment:MainAxisAlignment.center,
                         children: [
-                          Container(
-                            height: 100,
-                            width: 100,
-                            color: Colors.grey[350],
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              height: 100,
+                              width: 100,
+                              color: Colors.grey[350],
+                            ),
                           ),
-                          const SizedBox(
-                            width: 50,
+                          //const SizedBox(
+                           // width: 30,
+                         // ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              height: 100,
+                              width: 100,
+                              color: Colors.grey,
+                            ),
                           ),
-                          Container(
-                            height: 100,
-                            width: 100,
-                            color: Colors.grey,
-                          ),
-                          const SizedBox(
-                            width: 50,
-                          ),
-                          Container(
-                            height: 100,
-                            width: 100,
-                            color: Colors.grey[350],
+                          //const SizedBox(
+                           // width: 30,
+                         // ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              height: 100,
+                              width: 100,
+                              color: Colors.grey[350],
+                            ),
                           ),
                         ]
                       ),
